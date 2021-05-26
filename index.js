@@ -15,7 +15,7 @@ Take what you know of JavaScript syntax so far to build the program and customiz
 
 // main function generateRandomMessage() will take a name as an argument, interpolating it with three random pieces, one from each array below.
 
-// titles
+// beginnings
 const beginnings = [
     'Prince',
     'Princess',
@@ -41,9 +41,19 @@ const beginnings = [
 ];
 
 
-const middles = [];
+const middles = [
+    'Slayer',
+    'Curator',
+    'Creator',
+    'Master'
+];
 
-const ends = [];
+const ends = [
+    'Dragons',
+    'Swords',
+    'Darkness',
+    'Light'
+];
 
 const generateRandomIndex = arr => {
 
@@ -61,4 +71,22 @@ const generateRandomMessage = (name) => {
 
 };
 
-generateRandomMessage();
+// me n all my homies
+const names = [
+    'Michael',
+    'Matt',
+    'Bekka',
+    'Danielle',
+    'Amanda',
+    'Kayla',
+    'Nathan',
+    'Jackie',
+    'Hannah',
+    'Signe'
+]
+
+console.log(' ');
+names.forEach(name => {
+    generateRandomMessage(name);
+});
+console.log(' ');
