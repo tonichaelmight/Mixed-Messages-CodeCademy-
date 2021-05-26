@@ -98,7 +98,11 @@ const names = [
     'Nathan',
     'Jackie',
     'Hannah',
-    'Signe'
+    'Signe',
+    'Hunter',
+    'Chance',
+    'Ryan',
+    'Ross'
 ]
 
 console.log(' ');
