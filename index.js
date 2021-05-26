@@ -47,7 +47,8 @@ const middles = [
     'Creator',
     'Master',
     'Teacher',
-    'Forger'
+    'Forger',
+    'Crafter'
 ];
 
 // dramatic nouns
@@ -56,7 +57,8 @@ const ends = [
     'Swords',
     'Darkness',
     'Light',
-    'Hearts'
+    'Hearts',
+    'Beasts'
 ];
 
 
